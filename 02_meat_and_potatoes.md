@@ -16,10 +16,12 @@ go into insert mode to type.
 
 ##So insert mode?
 
+```
 `i` - Start insert mode under the cursor
 `a` - Start insert mode to the right of the cursor
 `o` - Start insert mode on the next line
 `O` - Start insert mode on the previous line
+```
 
 You should practice and get used to these commands.
 
@@ -33,6 +35,7 @@ cursor around a codebase and editing.
 
 These are ways to navigate the cursor
 
+```
 `gg` - Brings the cursor to the top of the page
 `G` - Brings the cursor to the bottom of the page
 `w` - Beginning of next word
@@ -42,16 +45,19 @@ These are ways to navigate the cursor
 `$` - End of line
 `}` - Next blank line
 `{` - Previous blank line
+```
 
 ##Operators
 
 You use these to do stuff
 
+```
 `y` - Yank
 `d` - Delete
 `r` - Replace
 `p` - Paste
 `x` - Delete under cursor
+```
 
 ##The Magic of composition
 

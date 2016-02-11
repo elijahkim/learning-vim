@@ -40,10 +40,12 @@ can move around, delete, paste, and a number of other things.
 Movement
 --------
 
+```
 h - left
 j - down
 k - up
 l - right
+```
 
 * Don't use the arrow keys. The whole point of vim is to stay on the home row
   for as often as possible. Using the arrow keys is an anti-pattern.
