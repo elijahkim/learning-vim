@@ -48,6 +48,16 @@ l - right
 * Don't use the arrow keys. The whole point of vim is to stay on the home row
   for as often as possible. Using the arrow keys is an anti-pattern.
 
+```
+Hint
+If you really want to turn them off, put this in your vimrc:
+
+nnoremap <Left> :echoe "Use h"<CR>
+nnoremap <Right> :echoe "Use l"<CR>
+nnoremap <Up> :echoe "Use k"<CR>
+nnoremap <Down> :echoe "Use j"<CR>
+```
+
 As an editor, you expect to be able to write. You do this by going into `Insert
 mode` or pressing `i`. You do your writing and when you're done you exit by
 using `esc`.
